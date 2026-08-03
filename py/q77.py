@@ -1,4 +1,4 @@
-
+# DSA in Python - Generate All Binary Strings | Backtracking & Recursion | GFG - Part 73
 
 # optimal solution is to use recursion to generate all binary strings of length n, ensuring that no two consecutive 1's are present. The function `binary(n)` initializes the process, while the inner function `recursion(idx, flag, num, result)` handles the recursive generation of the binary strings.
 def binary(n):
@@ -22,12 +22,9 @@ def binary(n):
     recursion( 0 , True , num , result ) 
 
     return result
-
-
 print(binary(3))
     
     
-
         
 # brute force----------------------------
 
